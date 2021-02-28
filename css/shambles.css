@@ -1,0 +1,171 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+#logo-container {
+  white-space: nowrap;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* Overrides */
+nav {
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(20px) contrast(110%) brightness(100%);
+  -webkit-backdrop-filter: blur(20px) contrast(110%) brightness(100%);
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+li a.active {
+  color: initial !important;
+  pointer-events: none;
+}
+
+.sidenav-overlay {
+  backdrop-filter: blur(20px) contrast(110%) brightness(100%);
+  -webkit-backdrop-filter: blur(20px) contrast(110%) brightness(100%);
+  background: transparent;
+}
+
+.app-store {
+  height: 58px;
+  margin: 0.25rem;
+  min-width: 170px;
+}
+
+.app-store.soon {
+  pointer-events: none;
+}
+
+.app-store.soon img {
+  opacity: 0.25;
+}
+
+.app-store.soon:before {
+  content: "coming soon";
+  position: absolute;
+  color: initial;
+  z-index: 1;
+  text-transform: lowercase;
+  font-style: initial;
+  top: 0px;
+  line-height: 1.6em;
+  width: 100%;
+  left: 0;
+  text-align: left;
+  text-indent: 0.5em;
+  font-size: 10px;
+}
+
+body > .section a,
+body > .container a,
+body > footer a {
+  text-decoration: underline;
+}
+
+.link-color {
+  color: #039be5;
+}
+
+#page-support .scrollspy {
+  padding-top: 6rem;
+}
+
+.page-support-back-botton {
+  text-decoration: none !important;
+}
+
+.mobile-phone {
+  height: 50vh;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0px 30px #ddd;
+  border: 1px solid #e2e2e2;
+}
+
+.mobile-phone-wrapper {
+  width: 100%;
+}
+
+.row .res {
+  display: inline-block;
+}
+
+.row .reg {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) and (min-height: 520px) {
+  .row .res {
+    display: none;
+  }
+
+  .row .reg {
+    display: flex;
+  }
+
+  .mobile-phone-notes {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .mobile-phone-notes p {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    backdrop-filter: blur(20px) contrast(110%) brightness(100%);
+    -webkit-backdrop-filter: blur(20px) contrast(110%) brightness(100%);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .mobile-phone {
+    height: 68vh;
+    position: relative;
+    max-height: 80vw;
+  }
+
+  /* .row.lift {
+    position: relative;
+    top: -100px;
+}
+
+.row.lift:last-child {
+    top: -200px;
+} */
+}
+
+.tip code {
+  background: #dcdcdc;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+}
+
+.scrollable-box {
+  display: block;
+  height: 76vh;
+  width: auto;
+  overflow: scroll;
+  font-family: courier, monospace;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+  background-color: #f9f9f9;
+}
+
+.highlight {
+  background: #ffff99;
+  padding: 2px;
+}

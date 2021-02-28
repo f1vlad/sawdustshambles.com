@@ -1,0 +1,95 @@
+nav .brand-logo {
+    margin: 0;
+}
+
+@media only screen and (min-width: 992px) {
+    nav .brand-logo {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    #page-home .icon-block h2 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    #page-home .icon-block h5 {
+        margin-top: 0;
+    }
+
+    #page-home .header img {
+        height: 20vh;
+    }
+}
+
+body > .container > .section {
+    min-height: 96vh;
+    padding-top: 4vh;
+}
+
+body .container a {
+    text-decoration: underline;
+}
+
+.section a {
+    white-space: nowrap;
+}
+
+.app-store {
+    height: 58px;
+    margin: .25rem;
+    min-width: 170px;
+}
+
+.app-store.soon {
+    pointer-events: none;
+}
+
+.app-store.soon img {
+    opacity: .25;
+}
+
+.app-store.soon:before {
+    content: "coming soon";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    color: initial;
+    z-index: 1;
+    text-transform: lowercase;
+    font-style: italic;
+    left: 4.75rem;
+}
+
+.tip code {
+    background: #555;
+    padding: .1rem .3rem;
+    border-radius: 3px;
+}
+
+.instagram-icon,
+.twitter-icon,
+.facebook-icon,
+.linkedin-icon,
+.terminal-icon {
+    height: 0.75rem;
+    width: 0.75rem;
+    margin: 0 .15rem
+}
+
+#page-service-status iframe {
+    border: none;
+    height: 1.5em;
+    position: relative;
+    top: .3em;
+    overflow: hidden;
+}
+
+.footer-copyright .container {
+    width: 100%;
+}
