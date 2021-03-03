@@ -18,7 +18,8 @@
 }
 
 /* Overrides */
-nav {
+nav,
+#gg-screen {
   box-shadow: none;
   background: rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(20px) contrast(110%) brightness(100%);

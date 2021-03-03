@@ -43,7 +43,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: var(--backdrop-color);
+    /* background: var(--backdrop-color); */
     z-index: 9999;
     text-align: center;
   }
