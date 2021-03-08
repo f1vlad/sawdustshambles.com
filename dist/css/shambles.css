@@ -7,7 +7,8 @@
  */
 
 .corporate-identity {
-  font-family: 'Rubik';
+  font-family: 'Goldman';
+  text-transform: uppercase;
   font-weight: 900;
   text-shadow: 1px 1px 0px rgb(0 0 0 / 40%), 2px 2px 0px rgb(0 0 0 / 15%);
 }
@@ -224,7 +225,7 @@ body > footer a {
   /* color: white; */
   font-weight: bold;
   text-shadow: 0 -1px 0px rgba(166, 86, 3, .75), 0 -2px 0px rgba(166, 86, 3, .5);
-  font-family: 'Rubik';
+  font-family: 'Goldman';
   font-weight: 900;
   padding: 1rem 4rem;
   transform: skew(-15deg, 0deg);
