@@ -1,3 +1,7 @@
+nav[role=navigation] {
+    height: 64px;
+}
+
 nav .brand-logo {
     margin: 0;
 }
@@ -9,8 +13,8 @@ nav .brand-logo {
 }
 
 @media only screen and (max-width: 601px) {
-    h1 {
-        font-size: 3.2rem;
+    .section.scrollspy h1.header {
+        font-size: 2.25rem !important;
     }
 
     #page-home .icon-block h2 {
@@ -36,9 +40,9 @@ body .container a {
     text-decoration: underline;
 }
 
-.section a {
+/* .section a {
     white-space: nowrap;
-}
+} */
 
 .app-store {
     height: 58px;
