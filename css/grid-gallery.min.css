@@ -136,6 +136,16 @@
 /* Overrides */
 .gg-btn {
     border-radius: 50%;
+    line-height: 33px;
+
+    color: #e4821d;
+    background: #ffffff;
+    border: 1px solid #e4821d;
+}
+
+.gg-btn:hover {
+  background: #e4821d;
+  color: #fff;
 }
 
 .gg-box > img + span {
